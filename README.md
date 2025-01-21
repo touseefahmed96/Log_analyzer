@@ -2,9 +2,6 @@
 
 The Log Analyzer Tool is a Python-based application designed to help you analyze log files for suspicious activities such as malware, unauthorized access, phishing attempts, file tampering, security breaches and more. The tool works on macOS, Windows, and Linux. It features a user-friendly GUI and generates clear reports with graphs for easy interpretation.
 
-
-![Log_analyzer](images/image_1.png) 
-
 ## Features
 
 - Analyze log files for various suspicious activities.
@@ -26,7 +23,7 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
 
 ### Clone the repository:
 
-    git clone https://github.com/Rishikesh-khot/Log_analyzer.git
+    git clone https://github.com/touseefahmed96/Log_analyzer.git
     cd Log_analyzer
     
 ### For macOS and Linux
@@ -40,15 +37,11 @@ The Log Analyzer Tool is a Python-based application designed to help you analyze
     ```
 2. Create a Virtual Environment:
 
- ```bash
-For Linux/Macos:
-python3 -m venv venv
-source venv/bin/activate
-
-For Windows: 
-python3 -m venv venv
-venv\Scripts\activate   
-```
+    ```bash
+    For Linux/Macos:
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
 2. Install the required libraries:
 
@@ -67,10 +60,18 @@ venv\Scripts\activate
 
 1. Ensure Python 3.x is installed. If not, download and install it from the [official website](https://www.python.org/downloads/).
 
-2. Install the required libraries:
+2. Create a Virtual Environment:
 
     ```bash
-    pip3 install -r requirements.txt
+    For Windows: 
+    python3 -m venv venv
+    venv\Scripts\activate  
+    ``` 
+
+3. Install the required libraries:
+
+    ```bash
+    pip install -r requirements.txt
     ```
 
 ## Usage
@@ -78,27 +79,10 @@ venv\Scripts\activate
 1. Run the application:
 
     ```bash
-    sudo python log_analyzer.py
+    python log_analyzer.py
     ```
 
 2. Using the GUI:
 - Click on "Select Log File and Scan" to choose a log file.
 - The analysis results will be displayed, including any detected suspicious activities and their remedies.
 - The output report and graph will be saved in the same directory as the log file.
-
-
-## Example
-
-Here is an example of the tool's output in a bar graph:
-
-![Log_analyzer](images/image_8.png) 
-
-After selecting a log file and running the analysis, you will see the detected issues and recommended actions with a bar graph.
-
-## Future Enhancements
-
-- **Real-time Monitoring**: Implement real-time monitoring of log files to detect suspicious activities as they happen.
-- **Custom Patterns**: Allow users to define custom patterns and rules for detecting suspicious activities.
-- **Integration with SIEM**: Integrate with Security Information and Event Management (SIEM) systems for advanced threat detection and incident response.
-
-![Log_analyzer](images/Logo.png)

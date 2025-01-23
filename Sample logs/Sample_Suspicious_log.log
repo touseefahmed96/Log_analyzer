@@ -89,11 +89,6 @@ Jun 21 11:27:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.13
 Jun 21 11:28:00 INFO ProcessA: Processing request
 Jun 21 11:29:00 ERROR Malware detected in ProcessA
 Jun 21 11:30:00 INFO ProcessA: Completed task successfully
-
-
-
-
-
 Jun 21 10:00:00 INFO ProcessA: Started service
 Jun 21 10:01:00 DEBUG ProcessB: Received request
 Jun 21 10:02:00 INFO ProcessA: Completed task successfully
@@ -207,8 +202,7 @@ Jun 21 11:49:00 DEBUG ProcessA: Handled system maintenance
 Jun 21 11:50:00 INFO ProcessB: Applied software patches
 Jun 21 11:51:00 DEBUG ProcessC: Investigated malware infection
 Jun 21 11:52:00 INFO ProcessA: Processed financial transactions
-Jun 21 11:53:00 DEBUG ProcessB: Reviewed server logs
-Jun 
+Jun 21 11:53:00 DEBUG ProcessB: Reviewed server logs 
 Jun 21 10:00:00 INFO ProcessA: Started service
 Jun 21 10:01:00 ERROR Unauthorized access attempt detected from IP: 192.168.1.100
 Jun 21 10:02:00 INFO ProcessA: Processing request
@@ -317,7 +311,3 @@ Jun 21 11:44:00 INFO ProcessA: Resuming normal operations
 Jun 21 11:45:00 ERROR Unauthorized access detected on admin account
 Jun 21 11:46:00 INFO ProcessB: Completed task successfully
 Jun 21 11:47:00 ERROR Malware detected in ProcessT
-Jun 21 11:48:00
-
-
-

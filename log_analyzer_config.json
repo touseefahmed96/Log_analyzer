@@ -7,9 +7,7 @@
         "advanced_malware": "zero-day|advanced persistent threat|rootkit",
         "phishing": "phishing|spear phishing|fraudulent email",
         "data_leakage": "data leakage|data exfiltration|information leak",
-        "Redirect": "Temporary Redirect",
-        "Error": "Error",
-        "Warn": "Warn"
+        "Redirect": "Temporary Redirect"
     },
     "remedies": {
         "malware": "Run a full system antivirus scan, isolate the affected systems, and update your antivirus software.",
@@ -22,8 +20,6 @@
         "unauthorized": "Custom pattern remedy not provided.",
         "Redirect": "Custom pattern remedy not provided.",
         "Unauthorized": "Custom pattern remedy not provided.",
-        "Redirect ": "Custom pattern remedy not provided.",
-        "Error": "none",
-        "Warn": "none"
+        "Redirect ": "Custom pattern remedy not provided."
     }
 }
